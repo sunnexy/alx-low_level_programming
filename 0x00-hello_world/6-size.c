@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
- * Description:using the main function
- * this program prints different sizes
- * Return 0
- */
+** main - main function
+** Description: using the main function
+** this program prints Programming is like building a multilingual puzzle
+** Return: 0
+**/
 
 int main(void)
 {
@@ -21,4 +21,4 @@ printf("Size of a long int: %Id byte(s)\n", sizeof(li));
 printf("Size of a long long int: %Id byte(s)\n", sizeof(lli));
 printf("Size of a float: %Id byte(s)\n", sizeof(f));
 return (0);
-}
+}	
