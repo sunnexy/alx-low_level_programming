@@ -7,6 +7,7 @@
  * this program prints different sizes
  * Return 0
  */
+/* main */
 int main(void)
 {
 char c;
