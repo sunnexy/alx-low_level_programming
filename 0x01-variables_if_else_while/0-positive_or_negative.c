@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - entry point
+ * main - assigns a random number to int n everytime
  * Description: tell if a number is postive, zero or negative
  * Return: Always 0 (Success)
  */
