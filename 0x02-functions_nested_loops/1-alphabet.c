@@ -4,10 +4,11 @@
  * Description: prints alphabeths in small letter
  * Return: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet("abcdefghijklmnopqrstuvwxyz");
-	_putchar('\n')
+	int i;
 
-	return (0);
+	for (i = 97; i <= 122; i++)
+		_putchar(i);
+	_putchar('\n');
 }
