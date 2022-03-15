@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - entry point
  * Description: printing puchar
@@ -6,12 +6,15 @@
  */
 int main (void)
 {
-	char a;
+	char c[8] = "_putchar";
 
-	for (a = 'a'; a <= 'z'; a++)
-		putchar(a);
-	for (a = 'A'; a <= 'A'; a++)
-		putchat(a);
-	putchar('\n');
+	int i = 0;
+
+	while (i < 9)
+	{
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
