@@ -1,4 +1,3 @@
-nclude "main.h"
 /**
  * _strstr - function locate
  * @haystack: pointer to char
